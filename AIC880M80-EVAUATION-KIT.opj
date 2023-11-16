@@ -76,21 +76,20 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\aic880m80-evauation-kit.dsn")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\libraries\prj_spec.olb")
       (Path "Layout")
-      (Path "Outputs")
-      (Path "Logs")
-      (Select "Design Resources" ".\aic880m80-evauation-kit.dsn" "ROOT"))
+      (Select "Design Resources" "Library" ".\libraries\prj_spec.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 754"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 670"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1639 24 772")
-        (Scroll "-216 12")
+        (Placement "44 0 1 -1 -1 0 0 5 1590 24 688")
+        (Scroll "-192 93")
         (Zoom "100")
         (Occurrence "/"))
       (Path
