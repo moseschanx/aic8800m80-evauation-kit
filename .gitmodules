@@ -1,0 +1,3 @@
+[submodule "custom-spb-lib"]
+	path = custom-spb-lib
+	url = http://dapd.ddns.net:3636/moseschanx/custom-spb-libs
