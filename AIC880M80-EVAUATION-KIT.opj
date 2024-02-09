@@ -1,6 +1,6 @@
 (ExpressProject "AIC880M80-EVAUATION-KIT"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S020 (3967196)  [8/8/2021]-[12/04/23]")
+  (SoftwareVersion "17.4-2019 S032 (4052516)  [8/29/2022]-[01/31/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -82,33 +82,39 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\aic880m80-evauation-kit.dsn")
-      (Path "Design Resources" ".\aic880m80-evauation-kit.dsn" "ROOT")
-      (Path "Design Resources" ".\aic880m80-evauation-kit.dsn" "MCU")
+      (Path "Design Resources"
+         "C:\Users\moses\code\aic8800m80-evauation-kit\aic880m80-evauation-kit.dsn")
+      (Path "Design Resources"
+         "C:\Users\moses\code\aic8800m80-evauation-kit\aic880m80-evauation-kit.dsn"
+         "ROOT")
+      (Path "Design Resources"
+         "C:\Users\moses\code\aic8800m80-evauation-kit\aic880m80-evauation-kit.dsn"
+         "MCU")
+      (Path "Design Resources"
+         "C:\Users\moses\code\aic8800m80-evauation-kit\aic880m80-evauation-kit.dsn"
+         "POWER")
+      (Path "Design Resources"
+         "C:\Users\moses\code\aic8800m80-evauation-kit\aic880m80-evauation-kit.dsn"
+         "RF")
+      (Path "Design Resources"
+         "C:\Users\moses\code\aic8800m80-evauation-kit\aic880m80-evauation-kit.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\libraries\prj_spec.olb")
-      (Path "Layout")
-      (Select "Design Resources" ".\aic880m80-evauation-kit.dsn" "ROOT" "TOP"))
+      (Path "Design Resources" "Library"
+         "C:\Users\moses\code\aic8800m80-evauation-kit\libraries\prj_spec.olb")
+      (Path "Layout"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 235 0 754"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1657"))
       (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1189 24 772"))
-      (Path
-         "C:\USERS\MOSES\CODE\AIC8800M80-EVAUATION-KIT\LIBRARIES\PRJ_SPEC.OLB")
-      (Package "AIC8800M80")
-      (PartType "1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1189 24 772")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 0 0 5 3039 24 1675")
+        (Scroll "-320 0")
+        (Zoom "202")
         (Occurrence "/"))
       (Path
          "C:\USERS\MOSES\CODE\AIC8800M80-EVAUATION-KIT\AIC880M80-EVAUATION-KIT.DSN")
@@ -117,11 +123,22 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1189 24 772")
-        (Scroll "438 337")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -1 -1 5 3039 24 1675")
+        (Scroll "-320 0")
+        (Zoom "202")
         (Occurrence "/PAGE1"))
       (Path
          "C:\USERS\MOSES\CODE\AIC8800M80-EVAUATION-KIT\AIC880M80-EVAUATION-KIT.DSN")
       (Schematic "MCU")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 3039 24 1675")
+        (Scroll "242 0")
+        (Zoom "384")
+        (Occurrence "/PAGE2"))
+      (Path
+         "C:\USERS\MOSES\CODE\AIC8800M80-EVAUATION-KIT\AIC880M80-EVAUATION-KIT.DSN")
+      (Schematic "POWER")
       (Page "PAGE1"))))
